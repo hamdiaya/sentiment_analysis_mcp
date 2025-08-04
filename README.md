@@ -24,8 +24,9 @@ pip install gradio textblob
 python -m textblob.download_corpora
 ```
 2. Run the server:
-   ```
+```bash
    python app.py
-   ```
+```   
+   
 3.The Gradio interface will launch at http://localhost:7860 and expose the MCP server at http://localhost:7860/gradio_api/mcp/sse
    
